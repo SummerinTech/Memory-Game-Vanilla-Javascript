@@ -23,6 +23,7 @@ let cardsChosenIds = [];
 function createBoard() {
 	for (let i = 0; i < cards.length; i++) {
 		let card = document.createElement("img");
+		card.classList.add("pointer");
 		card.setAttribute("src", "src/images/blank.png");
 		card.setAttribute("data-id", i);
 		card.addEventListener("click", showCard);
