@@ -14,12 +14,17 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	height: 90vh;
+}
+
+h1 {
+	margin-top: 1em;
 }
 
 .grid {
-	width: 500px;
-	height: 400px;
-	border: 1px solid rgb(242, 225, 225);
+	width: 600px;
+	height: 1000px;
+	/* border: 1px solid rgb(242, 225, 225); */
 	padding: 4%;
 	margin: 4%;
 }
@@ -32,4 +37,8 @@ footer {
 	padding: 1%;
 	color: purple;
 	font-family: "Roboto";
+}
+
+img {
+	max-width: 100%;
 }
